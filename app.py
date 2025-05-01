@@ -1,7 +1,7 @@
 import streamlit as st
 import datetime
 from datetime import date, datetime
-from supabase import create_client, Client
+from supabase.client import create_client, Client
 from streamlit_option_menu import option_menu
 import os
 from dotenv import load_dotenv
