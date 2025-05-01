@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from dotenv import load_dotenv
-from supabase import create_client, Client
+from supabase.client import create_client, Client
 from streamlit_option_menu import option_menu
 
 # Carregar variáveis de ambiente do arquivo .env
