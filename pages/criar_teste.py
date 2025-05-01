@@ -1,6 +1,6 @@
 # Cabeçalho da página
 import requests
-from supabase import create_client, Client
+from supabase.client import create_client, Client
 import streamlit as st
 import pandas as pd
 import re
