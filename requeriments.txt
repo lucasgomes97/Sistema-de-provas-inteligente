@@ -1,5 +1,6 @@
-supabase>=1.0.3
+supabase-py==1.0.3
 streamlit-option-menu>=0.3.6
+psycopg2-binary>=2.9
 streamlit==1.32.2
 requests==2.31.0
 openai==0.28.0
